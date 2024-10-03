@@ -1,0 +1,71 @@
+body {
+    background-color: #1c0950;
+    color: white;
+    margin: 0; /* Remove a margem padrão */
+    height: 100vh; /* Altura total da página */
+}
+
+.container {
+    display: flex;
+    height: 100%; /* Garante que a altura do contêiner seja total */
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+}
+
+.lowp {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.highp {
+    text-align: justify;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.spacer {
+    display: block;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.section-title {
+    font-size: 32px; 
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.box-1L {
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box-2L {
+    border: 1px solid black;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1R {
+    border: 1px solid black;
+    width: 65%;
+    height: 100%;
+    justify-content: center;
+}
