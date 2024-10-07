@@ -1,13 +1,14 @@
 body {
     background-color: #1c0950;
     color: white;
-    margin: 0; /* Remove a margem padrão */
-    height: 100vh; /* Altura total da página */
+    margin: 0;
+    height: 100vh;
 }
 
 .container {
     display: flex;
-    height: 100%; /* Garante que a altura do contêiner seja total */
+    height: 100%;
+    border: 2px solid black;
 }
 
 h1 {
@@ -17,14 +18,14 @@ h1 {
     font-size: 42px;
 }
 
-.lowp {
+.low_p {
     margin-top: 5px;
     text-align: center;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 24px;
 }
 
-.highp {
+.high_p {
     text-align: justify;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 22px;
@@ -45,17 +46,35 @@ h1 {
     text-align: center;
 }
 
-.box-1L {
+.box-1R {
+    border: 2px solid black;
+    background-color: #1c0950;
+    width: 65%;
+    height: 100%;
+    justify-content: center;
+}
+
+.box-FL {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.box-2L {
-    border: 1px solid black;
+.box-BL {
+    border: 2px solid black;
+    background-color: #2d2050;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-foc {
+    border: 2px solid black;
+    background-color: #1c0950;
     width: 100%;
     flex-grow: 1;
     display: flex;
@@ -63,9 +82,12 @@ h1 {
     justify-content: center;
 }
 
-.box-1R {
-    border: 1px solid black;
-    width: 65%;
-    height: 100%;
+.box-reg {
+    border: 2px solid black;
+    background-color: #2d2050;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
