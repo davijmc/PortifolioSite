@@ -75,19 +75,28 @@ h1 {
 .box-foc {
     border: 2px solid black;
     background-color: #1c0950;
+    color: white;
     width: 100%;
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .box-reg {
     border: 2px solid black;
     background-color: #2d2050;
+    color: white;
     width: 100%;
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box-reg:hover {
+    background-color: #140835;
 }
